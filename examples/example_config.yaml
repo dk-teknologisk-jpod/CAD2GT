@@ -1,0 +1,621 @@
+name: small_bricks_pose
+look_profile: /home/lab/workspace/auto-generate-2D-data/looks/orbbec_gemini335.json
+objects:
+  models:
+  - enabled: true
+    path: /home/lab/aia_sdk/ros/data/cad-files/CAD-centered/LEGO/LEGO1-3068-FlatTile-HF.stl
+    name: LEGO1-3068-FlatTile-HF
+    class_id: 2
+    unit: mm
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.7
+      - 0.7
+      - 0.7
+      palette: []
+      random_saturation_max: 0.05
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: /home/lab/aia_sdk/ros/data/cad-files/CAD-centered/LEGO/LEGO3-93606-BrickBow.stl
+    name: LEGO3-93606-BrickBow
+    class_id: 3
+    unit: m
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.7
+      - 0.7
+      - 0.7
+      palette: []
+      random_saturation_max: 0.05
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: /home/lab/aia_sdk/ros/data/cad-files/CAD-centered/LEGO/LEGO5-31110-DUPLO.stl
+    name: LEGO5-31110-DUPLO
+    class_id: 4
+    unit: m
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.9647058844566345
+      - 0.9607843160629272
+      - 0.95686274766922
+      palette: []
+      random_saturation_max: 0.05
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: /home/lab/aia_sdk/ros/data/cad-files/CAD-centered/LEGO/LEGO6-3678b-Slope65.stl
+    name: LEGO6-3678b-Slope65
+    class_id: 5
+    unit: m
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.7
+      - 0.7
+      - 0.7
+      palette: []
+      random_saturation_max: 0.05
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: /home/lab/aia_sdk/ros/data/cad-files/CAD-centered/LEGO/LEGO7-2019-Helmet452.stl
+    name: LEGO7-2019-Helmet452
+    class_id: 6
+    unit: m
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.8705882430076599
+      - 0.8666666746139526
+      - 0.8549019694328308
+      palette: []
+      random_saturation_max: 0.05
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: /home/lab/aia_sdk/ros/data/cad-files/CAD-centered/LEGO/LEGO8-7071-Helmet480-HF.stl
+    name: LEGO8-7071-Helmet480-HF
+    class_id: 7
+    unit: mm
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.07649347931146622
+      - 0.5100023150444031
+      - 0.13215838372707367
+      palette: []
+      random_saturation_max: 0.05
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: /home/lab/aia_sdk/ros/data/cad-files/CAD-centered/LEGO/LEGO9-3960-RoundPlate-HF.stl
+    name: LEGO9-3960-RoundPlate-HF
+    class_id: 8
+    unit: mm
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.7
+      - 0.7
+      - 0.7
+      palette: []
+      random_saturation_max: 0.05
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: /home/lab/aia_sdk/ros/data/cad-files/CAD-centered/LEGO/LEGO10-3846-Shield.stl
+    name: LEGO10-3846-Shield
+    class_id: 9
+    unit: m
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.7
+      - 0.7
+      - 0.7
+      palette: []
+      random_saturation_max: 0.05
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  count_mode: per_model
+  total_count:
+    min: 3
+    max: 8
+  min_classes_per_scene: 1
+  distractors:
+    enabled: true
+    count:
+      min: 0
+      max: 4
+    shapes:
+    - box
+    - cylinder
+    - sphere
+    - capsule
+    mesh_dir: ''
+    mesh_unit: auto
+    size:
+      min: 0.008
+      max: 0.04
+      dist: uniform
+    material:
+      mode: random_color
+      color:
+      - 0.7
+      - 0.7
+      - 0.7
+      palette: []
+      random_saturation_max: 0.05
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+placement:
+  mode: physics_drop
+  area_size:
+  - 0.25
+  - 0.2
+  stable_min_prob: 0.02
+  stable_max_poses: 8
+  min_spacing: 0.005
+  yaw:
+    min: -180.0
+    max: 180.0
+    dist: uniform
+  tilt_jitter_deg: 0.0
+  settle_with_physics: true
+  cluster_radius:
+    min: 0.005
+    max: 0.03
+    dist: uniform
+  drop_height:
+    min: 0.02
+    max: 0.1
+    dist: uniform
+  initial_orientation: random
+  sequential_drop: true
+  friction:
+    min: 0.4
+    max: 0.9
+    dist: uniform
+  restitution_damping: 1.0
+  sim_time: 4.0
+  timestep: 0.001
+  collision_geometry: convex_hull
+  max_decomposition_parts: 16
+  bin_size:
+  - 0.2
+  - 0.15
+  - 0.06
+  bin_wall_thickness: 0.005
+  render_bin: true
+  remove_out_of_area: true
+  float_volume:
+  - 0.12
+  - 0.12
+  - 0.08
+  float_center:
+  - 0.0
+  - 0.0
+  - 0.06
+  float_avoid_collisions: true
+  float_rotation: uniform_so3
+scene:
+  ground:
+    enabled: true
+    texture_mode: mixed
+    palette: []
+    saturation_max: 0.12
+    catcher_strength:
+      min: 0.5
+      max: 0.85
+      dist: uniform
+    texture_dir: ''
+    texture_size_m:
+      min: 0.15
+      max: 0.6
+      dist: uniform
+    extent_m: 6.0
+    roughness:
+      min: 0.4
+      max: 0.95
+      dist: uniform
+    rotation_deg:
+      min: 0.0
+      max: 360.0
+      dist: uniform
+    visible_probability: 1.0
+  background:
+    mode: mixed
+    saturation_max: 0.25
+    image_dir: ''
+    random_crop: true
+    photos_are_camera_images: true
+    crop_scale:
+      min: 0.4
+      max: 1.0
+      dist: uniform
+    flip: true
+    brightness:
+      min: 0.6
+      max: 1.2
+      dist: uniform
+  lighting:
+    num_lights:
+      min: 1
+      max: 3
+    light_type: mixed
+    intensity:
+      min: 1.5
+      max: 5.0
+      dist: uniform
+    color_temperature:
+      min: 3500.0
+      max: 7500.0
+      dist: uniform
+    distance:
+      min: 0.5
+      max: 1.5
+      dist: uniform
+    elevation_deg:
+      min: 40.0
+      max: 90.0
+      dist: uniform
+    ambient:
+      min: 0.35
+      max: 0.9
+      dist: uniform
+    shadows: true
+    shadow_map_size: 2048
+    shadow_softness:
+      min: 3.0
+      max: 10.0
+      dist: uniform
+    relight_per_view: false
+cameras:
+- name: gemini335
+  preset: Orbbec Gemini 335 / 336 | color
+  width: 1280
+  height: 800
+  fx: 686.3159744157967
+  fy: 686.3159744157967
+  cx: 639.5
+  cy: 399.5
+  dist:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  intrinsics_jitter: 0.0
+  rig_translation:
+  - 0.0
+  - 0.0
+  - 0.0
+  rig_rotation_deg:
+  - 0.0
+  - 0.0
+  - 0.0
+  world_pose: null
+  depth:
+    enabled: true
+    model: stereo
+    baseline_m: 0.05
+    disparity_noise_px: 0.08
+    tof_noise_rel: 0.0015
+    tof_noise_abs: 0.001
+    min_z: 0.1
+    max_z: 10.0
+    edge_dropout: 0.5
+    edge_threshold: 0.02
+    random_dropout: 0.002
+  calibration_file: ''
+viewpoints:
+  mode: sphere_fibonacci
+  views_per_scene: 8
+  rig_mode: rigid
+  distance_mode: absolute
+  radius:
+    min: 0.2
+    max: 0.4
+    dist: uniform
+  fill_fraction:
+    min: 0.6
+    max: 1.2
+    dist: uniform
+  elevation_deg:
+    min: 70.0
+    max: 90.0
+    dist: uniform
+  azimuth_deg:
+    min: -180.0
+    max: 180.0
+    dist: uniform
+  roll_deg:
+    min: -180.0
+    max: 180.0
+    dist: uniform
+  look_at_jitter: 0.03
+  target: scene_center
+  grid_azimuth_steps: 8
+  grid_elevation_steps: 3
+  fixed_jitter_translation: 0.0
+  fixed_jitter_rotation_deg: 0.0
+  min_visible_objects: 1
+  max_view_attempts: 20
+render:
+  msaa_samples: 4
+  near: 0.01
+  far: 20.0
+  canvas_padding: 0.15
+  smooth_angle_deg: 30.0
+  gpu_postprocess: true
+sensor:
+  enabled: true
+  auto_exposure: true
+  ae_target:
+    min: 0.4539962112903595
+    max: 0.5183029472827911
+    dist: uniform
+  ae_metering: light
+  exposure:
+    min: 0.6381145421155013
+    max: 0.8540195874635121
+    dist: loguniform
+  white_balance_jitter: 0.01487608253955841
+  white_balance_bias:
+  - 0.8242481633041535
+  - 1.0
+  - 0.9710222443838386
+  vignetting:
+    min: 0.0
+    max: 0.3
+    dist: uniform
+  tonemap: filmic
+  defocus_prob: 0.5
+  defocus_sigma:
+    min: 0.3
+    max: 1.9467958544856911
+    dist: uniform
+  motion_blur_prob: 0.1
+  motion_blur_length:
+    min: 3.0
+    max: 9.0
+    dist: uniform
+  gaussian_noise:
+    min: 0.00021135741633556275
+    max: 0.001690859330684502
+    dist: uniform
+  shot_noise:
+    min: 0.0
+    max: 0.008
+    dist: uniform
+  saturation:
+    min: 0.7
+    max: 0.75
+    dist: uniform
+  contrast:
+    min: 1.0913530853898163
+    max: 1.1913530853898164
+    dist: uniform
+  jpeg_quality:
+    min: 100.0
+    max: 100.0
+    dist: uniform
+output:
+  output_dir: /home/lab/workspace/auto-generate-2D-data/output/bricks_pose
+  formats:
+  - native
+  - bop
+  rgb_format: jpg
+  jpg_quality: 95
+  save_depth: false
+  depth_scale_mm: 0.1
+  save_instance_masks: true
+  save_semantic_masks: false
+  save_normals: false
+  save_amodal_masks: false
+  min_visib_fract: 0.1
+  min_px_visib: 50
+  max_truncation: 0.6
+  obb_source: visible_mask
+  keypoints: bbox3d_9
+  polygon_tolerance_px: 1.0
+  split_ratios:
+  - 0.8
+  - 0.2
+  - 0.0
+  yolo_class_offset: -1
+generation:
+  num_scenes: 250
+  seed: 42
+  workers: 0
+  start_scene: 0

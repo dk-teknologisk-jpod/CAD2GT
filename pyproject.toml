@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syngt"
+version = "1.0.0"
+description = "Synthetic ground-truth image generator (2D/OBB/seg/6D pose, multi-view) from CAD models"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy", "scipy", "opencv-python", "trimesh", "moderngl", "mujoco", "PySide6", "pydantic>=2",
+  "pyyaml", "pillow", "pycocotools", "networkx", "lxml", "rtree", "shapely", "manifold3d",
+]
+
+[project.optional-dependencies]
+step = ["cascadio"]
+decomposition = ["coacd", "vhacdx"]
+
+[project.scripts]
+syngt = "syngt.pipeline:main"
+
+[project.gui-scripts]
+syngt-gui = "syngt.gui.app:run"
+
+[tool.setuptools.packages.find]
+include = ["syngt*"]

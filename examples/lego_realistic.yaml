@@ -1,0 +1,669 @@
+name: lego_realistic
+look_profile: looks/orbbec_gemini335.json
+objects:
+  models:
+  - enabled: true
+    path: D:\Projects\JPOD_datasampling_cell\CAD\LEGO\LEGO3-93606-BrickBow.stl
+    name: LEGO3-93606-BrickBow
+    class_id: 1
+    unit: m
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 4
+      max: 10
+    weight: 1.0
+    material:
+      mode: palette
+      color:
+      - 0.7
+      - 0.7
+      - 0.7
+      palette:
+      - - 0.6274509803921569
+        - 0.6470588235294118
+        - 0.6627450980392157
+      - - 0.6274509803921569
+        - 0.6470588235294118
+        - 0.6627450980392157
+      - - 0.9568627450980393
+        - 0.9568627450980393
+        - 0.9568627450980393
+      - - 0.9568627450980393
+        - 0.9568627450980393
+        - 0.9568627450980393
+      - - 0.4235294117647059
+        - 0.43137254901960786
+        - 0.40784313725490196
+      random_saturation_max: 0.3
+      hue_jitter: 0.01
+      saturation_jitter: 0.0
+      value_jitter: 0.1
+      roughness:
+        min: 0.3
+        max: 0.6
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.0
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: D:\Projects\JPOD_datasampling_cell\CAD\LEGO\LEGO5-31110-DUPLO.stl
+    name: LEGO5-31110-DUPLO
+    class_id: 2
+    unit: m
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 4
+      max: 10
+    weight: 1.0
+    material:
+      mode: palette
+      color:
+      - 0.9254902005195618
+      - 0.9254902005195618
+      - 0.9254902005195618
+      palette:
+      - - 0.6274509803921569
+        - 0.6470588235294118
+        - 0.6627450980392157
+      - - 0.6274509803921569
+        - 0.6470588235294118
+        - 0.6627450980392157
+      - - 0.9568627450980393
+        - 0.9568627450980393
+        - 0.9568627450980393
+      - - 0.9568627450980393
+        - 0.9568627450980393
+        - 0.9568627450980393
+      - - 0.4235294117647059
+        - 0.43137254901960786
+        - 0.40784313725490196
+      random_saturation_max: 0.05
+      hue_jitter: 0.01
+      saturation_jitter: 0.0
+      value_jitter: 0.1
+      roughness:
+        min: 0.3
+        max: 0.6
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.0
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: D:\Projects\JPOD_datasampling_cell\CAD\LEGO\LEGO7-2019-Helmet452.stl
+    name: LEGO7-2019-Helmet452
+    class_id: 3
+    unit: m
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 4
+      max: 10
+    weight: 1.0
+    material:
+      mode: fixed_color
+      color:
+      - 0.13725490196078433
+      - 0.47058823529411764
+      - 0.2549019607843137
+      palette: []
+      random_saturation_max: 0.3
+      hue_jitter: 0.01
+      saturation_jitter: 0.0
+      value_jitter: 0.1
+      roughness:
+        min: 0.3
+        max: 0.6
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.0
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: D:\Projects\JPOD_datasampling_cell\CAD\LEGO\LEGO1-3068-FlatTile-HF.stl
+    name: LEGO1-3068-FlatTile-HF
+    class_id: 4
+    unit: mm
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.7
+      - 0.7
+      - 0.7
+      palette: []
+      random_saturation_max: 0.3
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: D:\Projects\JPOD_datasampling_cell\CAD\LEGO\LEGO6-3678b-Slope65.stl
+    name: LEGO6-3678b-Slope65
+    class_id: 5
+    unit: m
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.7
+      - 0.7
+      - 0.7
+      palette: []
+      random_saturation_max: 0.3
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: D:\Projects\JPOD_datasampling_cell\CAD\LEGO\LEGO8-7071-Helmet480-HF.stl
+    name: LEGO8-7071-Helmet480-HF
+    class_id: 6
+    unit: mm
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.886274516582489
+      - 0.886274516582489
+      - 0.886274516582489
+      palette: []
+      random_saturation_max: 0.3
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: D:\Projects\JPOD_datasampling_cell\CAD\LEGO\LEGO9-3960-RoundPlate-HF.stl
+    name: LEGO9-3960-RoundPlate-HF
+    class_id: 7
+    unit: mm
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.7
+      - 0.7
+      - 0.7
+      palette: []
+      random_saturation_max: 0.3
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  - enabled: true
+    path: D:\Projects\JPOD_datasampling_cell\CAD\LEGO\LEGO10-3846-Shield.stl
+    name: LEGO10-3846-Shield
+    class_id: 8
+    unit: m
+    recenter: false
+    scale_jitter:
+      min: 1.0
+      max: 1.0
+      dist: uniform
+    count:
+      min: 2
+      max: 5
+    weight: 1.0
+    material:
+      mode: original
+      color:
+      - 0.6470588445663452
+      - 0.6470588445663452
+      - 0.6470588445663452
+      palette: []
+      random_saturation_max: 0.2
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+    symmetry: none
+    symmetry_order: 2
+    density: 1100.0
+    friction: 0.6
+  count_mode: per_model
+  total_count:
+    min: 3
+    max: 8
+  min_classes_per_scene: 1
+  distractors:
+    enabled: true
+    count:
+      min: 0
+      max: 4
+    shapes:
+    - box
+    - cylinder
+    - sphere
+    - capsule
+    mesh_dir: ''
+    mesh_unit: auto
+    size:
+      min: 0.01
+      max: 0.05
+      dist: uniform
+    material:
+      mode: palette
+      color:
+      - 0.7
+      - 0.7
+      - 0.7
+      palette:
+      - - 0.7058823529411765
+        - 0.7137254901960784
+        - 0.7215686274509804
+      - - 0.5568627450980392
+        - 0.5647058823529412
+        - 0.5764705882352941
+      - - 0.16470588235294117
+        - 0.16470588235294117
+        - 0.16470588235294117
+      - - 0.08235294117647059
+        - 0.08235294117647059
+        - 0.08235294117647059
+      random_saturation_max: 1.0
+      hue_jitter: 0.0
+      saturation_jitter: 0.0
+      value_jitter: 0.0
+      roughness:
+        min: 0.3
+        max: 0.8
+        dist: uniform
+      metallic:
+        min: 0.0
+        max: 0.2
+        dist: uniform
+placement:
+  mode: physics_drop
+  area_size:
+  - 0.25
+  - 0.2
+  stable_min_prob: 0.02
+  stable_max_poses: 8
+  min_spacing: 0.005
+  yaw:
+    min: -180.0
+    max: 180.0
+    dist: uniform
+  tilt_jitter_deg: 0.0
+  settle_with_physics: true
+  cluster_radius:
+    min: 0.05
+    max: 0.1
+    dist: uniform
+  drop_height:
+    min: 0.02
+    max: 0.1
+    dist: uniform
+  initial_orientation: random
+  sequential_drop: false
+  friction:
+    min: 0.4
+    max: 0.9
+    dist: uniform
+  restitution_damping: 1.0
+  sim_time: 4.0
+  timestep: 0.001
+  collision_geometry: convex_hull
+  max_decomposition_parts: 16
+  bin_size:
+  - 0.2
+  - 0.15
+  - 0.06
+  bin_wall_thickness: 0.005
+  render_bin: true
+  remove_out_of_area: true
+  float_volume:
+  - 0.12
+  - 0.12
+  - 0.08
+  float_center:
+  - 0.0
+  - 0.0
+  - 0.06
+  float_avoid_collisions: true
+  float_rotation: uniform_so3
+scene:
+  ground:
+    enabled: true
+    texture_mode: mixed
+    palette:
+    - - 0.5255241842830882
+      - 0.5354160682827819
+      - 0.5315532011144302
+    - - 0.5934530220779718
+      - 0.6045538210401348
+      - 0.6003029019224877
+    - - 0.4566500196269914
+      - 0.4691773956897212
+      - 0.46704281077665444
+    - - 0.14565543380438112
+      - 0.1275057923560049
+      - 0.1554177527334176
+    saturation_max: 0.7
+    catcher_strength:
+      min: 0.5
+      max: 0.85
+      dist: uniform
+    texture_dir: ''
+    texture_size_m:
+      min: 0.15
+      max: 0.6
+      dist: uniform
+    extent_m: 6.0
+    roughness:
+      min: 0.4
+      max: 0.95
+      dist: uniform
+    rotation_deg:
+      min: 0.0
+      max: 360.0
+      dist: uniform
+    visible_probability: 1.0
+  background:
+    mode: mixed
+    saturation_max: 1.0
+    image_dir: D:\workspace\auto-generate-GT-data\backgrounds\workcell_plates
+    random_crop: true
+    photos_are_camera_images: true
+    crop_scale:
+      min: 0.4
+      max: 1.0
+      dist: uniform
+    flip: true
+    brightness:
+      min: 0.6
+      max: 1.2
+      dist: uniform
+  lighting:
+    num_lights:
+      min: 1
+      max: 3
+    light_type: mixed
+    intensity:
+      min: 2.0
+      max: 8.0
+      dist: uniform
+    color_temperature:
+      min: 3500.0
+      max: 7500.0
+      dist: uniform
+    distance:
+      min: 0.5
+      max: 1.5
+      dist: uniform
+    elevation_deg:
+      min: 25.0
+      max: 85.0
+      dist: uniform
+    ambient:
+      min: 0.1
+      max: 0.5
+      dist: uniform
+    shadows: true
+    shadow_map_size: 2048
+    shadow_softness:
+      min: 1.0
+      max: 6.0
+      dist: uniform
+    relight_per_view: false
+cameras:
+- name: cam1
+  preset: Orbbec Gemini 335 / 336 | color
+  width: 1280
+  height: 800
+  fx: 686.3159744157967
+  fy: 686.3159744157967
+  cx: 639.5
+  cy: 399.5
+  dist:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  intrinsics_jitter: 0.0
+  rig_translation:
+  - 0.0
+  - 0.0
+  - 0.0
+  rig_rotation_deg:
+  - 0.0
+  - 0.0
+  - 0.0
+  world_pose: null
+  depth:
+    enabled: true
+    model: stereo
+    baseline_m: 0.05
+    disparity_noise_px: 0.08
+    tof_noise_rel: 0.0015
+    tof_noise_abs: 0.001
+    min_z: 0.1
+    max_z: 10.0
+    edge_dropout: 0.5
+    edge_threshold: 0.02
+    random_dropout: 0.002
+  calibration_file: ''
+viewpoints:
+  mode: sphere_fibonacci
+  views_per_scene: 8
+  rig_mode: rigid
+  distance_mode: absolute
+  radius:
+    min: 0.15
+    max: 0.36
+    dist: uniform
+  fill_fraction:
+    min: 0.6
+    max: 1.2
+    dist: uniform
+  elevation_deg:
+    min: 70.0
+    max: 90.0
+    dist: uniform
+  azimuth_deg:
+    min: -180.0
+    max: 180.0
+    dist: uniform
+  roll_deg:
+    min: -180.0
+    max: 180.0
+    dist: uniform
+  look_at_jitter: 0.03
+  target: scene_center
+  grid_azimuth_steps: 8
+  grid_elevation_steps: 3
+  fixed_jitter_translation: 0.0
+  fixed_jitter_rotation_deg: 0.0
+  min_visible_objects: 1
+  max_view_attempts: 20
+render:
+  msaa_samples: 4
+  near: 0.01
+  far: 20.0
+  canvas_padding: 0.15
+  smooth_angle_deg: 30.0
+  gpu_postprocess: true
+sensor:
+  enabled: true
+  exposure:
+    min: 0.7
+    max: 1.4
+    dist: loguniform
+  white_balance_jitter: 0.06
+  white_balance_bias:
+  - 0.8825436626646106
+  - 1.0
+  - 1.0485141985967992
+  vignetting:
+    min: 0.0
+    max: 0.3
+    dist: uniform
+  tonemap: filmic
+  defocus_prob: 0.2
+  defocus_sigma:
+    min: 0.3
+    max: 1.5
+    dist: uniform
+  motion_blur_prob: 0.1
+  motion_blur_length:
+    min: 3.0
+    max: 9.0
+    dist: uniform
+  gaussian_noise:
+    min: 0.0
+    max: 0.015
+    dist: uniform
+  shot_noise:
+    min: 0.0
+    max: 0.015
+    dist: uniform
+  saturation:
+    min: 0.85
+    max: 1.15
+    dist: uniform
+  contrast:
+    min: 1.25
+    max: 1.3
+    dist: uniform
+  jpeg_quality:
+    min: 100.0
+    max: 100.0
+    dist: uniform
+output:
+  output_dir: D:\workspace\auto-generate-GT-data\output\lego_realistic
+  formats:
+  - native
+  - yolo
+  rgb_format: jpg
+  jpg_quality: 95
+  save_depth: false
+  depth_scale_mm: 0.1
+  save_instance_masks: true
+  save_semantic_masks: false
+  save_normals: false
+  save_amodal_masks: false
+  min_visib_fract: 0.1
+  min_px_visib: 50
+  max_truncation: 0.6
+  obb_source: visible_mask
+  keypoints: bbox3d_9
+  polygon_tolerance_px: 1.0
+  split_ratios:
+  - 0.8
+  - 0.2
+  - 0.0
+  yolo_class_offset: -1
+generation:
+  num_scenes: 250
+  seed: 42
+  workers: 4
+  start_scene: 0
